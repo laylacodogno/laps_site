@@ -1,0 +1,47 @@
+.container{
+  margin: 10px;
+  padding: 10px;
+}
+.side{
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: top;
+  padding: 0;
+  margin: -2px;
+}
+.side.left{
+  background-color: white;
+  background-image: url('images/logo_left.png');
+  background-position: right center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.side.right{
+  background-color: #D08824;
+  background-image: url('images/logo_right.png');
+  background-position: left center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.side  .company-name{
+  margin-bottom: 0;
+  font-size: 52px;
+}
+.side  .company-slogan{
+  margin-top: 0;
+}
+.side  .company-email{
+  text-align: right;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+.side  .company-email > a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
